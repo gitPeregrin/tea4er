@@ -7,19 +7,19 @@ int main(){
     int string = 10;
     int column = 12;
 
-    int massize = string*column+11;
+    int arrSize = string*column+11;
 
-    char arr[massize];
+    char arr[arrSize];
     int k = 10;
 
-    for (int i=0; i<massize; i++){   
+    for (int i=0; i<arrSize; i++){
         if (k == i) {
             arr[i] = '\n';
             k=k+11;
         } else arr[i] = '*';
        // printf ("%d,%d \n", k, i);
     }
-    arr[massize] = '\0';
+    arr[arrSize] = '\0';
     printf ("%s", arr);
 
     return 0;
