@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(){
+int main(void){
 
     int string = 10;
     int column = 12;
