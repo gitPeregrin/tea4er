@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DA34ADE2A389B6800687AE3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DA34ADD2A389B6800687AE3 /* main.c */; };
+		3DF53CC62A38ED2300DD8D61 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DF53CBF2A38ED2300DD8D61 /* main.c */; };
+		3DF53CC72A38ED2300DD8D61 /* arrtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 3DF53CC12A38ED2300DD8D61 /* arrtable.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,11 @@
 
 /* Begin PBXFileReference section */
 		3DA34ADA2A389B6800687AE3 /* tea4er */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tea4er; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DA34ADD2A389B6800687AE3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3DF53CBF2A38ED2300DD8D61 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3DF53CC02A38ED2300DD8D61 /* main.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.exe; sourceTree = "<group>"; };
+		3DF53CC12A38ED2300DD8D61 /* arrtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arrtable.c; sourceTree = "<group>"; };
+		3DF53CC22A38ED2300DD8D61 /* tempCodeRunnerFile.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = tempCodeRunnerFile.exe; sourceTree = "<group>"; };
+		3DF53CC32A38ED2300DD8D61 /* tea4er.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = tea4er.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +46,7 @@
 		3DA34AD12A389B6800687AE3 = {
 			isa = PBXGroup;
 			children = (
-				3DA34ADC2A389B6800687AE3 /* tea4er */,
+				3DF53CBD2A38ED2300DD8D61 /* tea4er */,
 				3DA34ADB2A389B6800687AE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +59,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DA34ADC2A389B6800687AE3 /* tea4er */ = {
+		3DF53CBD2A38ED2300DD8D61 /* tea4er */ = {
 			isa = PBXGroup;
 			children = (
-				3DA34ADD2A389B6800687AE3 /* main.c */,
+				3DF53CBE2A38ED2300DD8D61 /* tea4er */,
+				3DF53CC22A38ED2300DD8D61 /* tempCodeRunnerFile.exe */,
+				3DF53CC32A38ED2300DD8D61 /* tea4er.xcodeproj */,
+			);
+			name = tea4er;
+			sourceTree = "<group>";
+		};
+		3DF53CBE2A38ED2300DD8D61 /* tea4er */ = {
+			isa = PBXGroup;
+			children = (
+				3DF53CBF2A38ED2300DD8D61 /* main.c */,
+				3DF53CC02A38ED2300DD8D61 /* main.exe */,
+				3DF53CC12A38ED2300DD8D61 /* arrtable.c */,
 			);
 			path = tea4er;
+			sourceTree = "<group>";
+		};
+		3DF53CC42A38ED2300DD8D61 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +129,12 @@
 			mainGroup = 3DA34AD12A389B6800687AE3;
 			productRefGroup = 3DA34ADB2A389B6800687AE3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3DF53CC42A38ED2300DD8D61 /* Products */;
+					ProjectRef = 3DF53CC32A38ED2300DD8D61 /* tea4er.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3DA34AD92A389B6800687AE3 /* tea4er */,
@@ -119,7 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA34ADE2A389B6800687AE3 /* main.c in Sources */,
+				3DF53CC62A38ED2300DD8D61 /* main.c in Sources */,
+				3DF53CC72A38ED2300DD8D61 /* arrtable.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
