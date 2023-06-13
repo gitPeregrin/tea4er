@@ -11,5 +11,5 @@ int main(void) {
     int (* echo)(const char *) = puts;
     printf ("Hello, Mike! \n"); 
     return echo("Hello, World!");
-
+    //fixed
 }
