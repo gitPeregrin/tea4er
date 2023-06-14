@@ -7,9 +7,13 @@
 
 #include <stdio.h>
 
+int roundUp(double d){
+    int intd = (int)d;
+    d -= intd;
+    return d < 0.5 ? intd : ++intd ;
+}
+
 int main(void) {
-    int (* echo)(const char *) = puts;
-    printf ("Hello, Mike! \n"); 
-    return echo("Hello, World!");
-    //fixed
+    float something = 6.53;
+    printf("%f -> %d\n",something, roundUp(something));
 }
