@@ -6,14 +6,12 @@
 //
 
 #include <stdio.h>
+#include "mathematics.h"
 
-int roundUp(double d){
-    int intd = (int)d;
-    d -= intd;
-    return d < 0.5 ? intd : ++intd ;
-}
 
 int main(void) {
     float something = 6.53;
-    printf("%f -> %d\n",something, roundUp(something));
+    printf("%f -> %d\n",something, mathRound(something));
+    printf("%f ^ %d -> %f\n", something, 2, mathPower(something, 2));
+    printf("%d ^ %d -> %d\n", mathRound(something), 3 ,mathRound(mathPower((double)mathRound(something), 3)));
 }
