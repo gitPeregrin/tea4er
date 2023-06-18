@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../pen.c">
+   </FileRef>
+   <FileRef
+      location = "group:../pointline.c">
+   </FileRef>
+   <FileRef
+      location = "group:../pointline11.c">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
